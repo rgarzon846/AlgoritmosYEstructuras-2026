@@ -5,7 +5,7 @@
     "orquestador": {
       "description": "Agente orquestador que recibe tareas de programación, lógica, algoritmos y estructuras de datos. Analiza la tarea, la descompone y delega a los subagentes especializados adecuados.",
       "mode": "primary",
-      "model": "opencode/mimo-v2.5-free",
+      "model": "opencode/mimo-v2.6-flash-free",
       "permission": {
         "edit": "allow",
         "bash": "allow",
@@ -19,7 +19,7 @@
     "analista": {
       "description": "Agente analista que examina problemas, identifica puntos débiles en soluciones propuestas, define etapas de ejecución y verifica que la ruta se mantenga correcta tras cada etapa. Solo tiene permisos de lectura.",
       "mode": "subagent",
-      "model": "opencode/mimo-v2.5-free",
+      "model": "opencode/mimo-v2.6-flash-free",
       "permission": {
         "edit": "deny",
         "bash": "deny",
@@ -33,7 +33,7 @@
     "arquitecto": {
       "description": "Agente arquitecto que diseña la solución de software: estructura del proyecto, elección de herramientas, data structures y algoritmos. Siempre presenta alternativas comparadas.",
       "mode": "subagent",
-      "model": "opencode/mimo-v2.5-free",
+      "model": "opencode/mimo-v2.6-flash-free",
       "permission": {
         "edit": "allow",
         "bash": "deny",
@@ -47,7 +47,7 @@
     "desarrollador-java": {
       "description": "Desarrollador Java especializado en OOP. Implementa diseños, crea archivos .java y verifica compilación. No hace testing.",
       "mode": "subagent",
-      "model": "opencode/mimo-v2.5-free",
+      "model": "opencode/mimo-v2.6-flash-free",
       "permission": {
         "edit": "allow",
         "bash": "allow",
@@ -61,7 +61,7 @@
     "documentador": {
       "description": "Agente documentador que genera documentación concisa del proyecto: requerimientos, diseño y documentación del código. Trabaja por proyecto y actualiza sesiones.",
       "mode": "subagent",
-      "model": "opencode/mimo-v2.5-free",
+      "model": "opencode/mimo-v2.6-flash-free",
       "permission": {
         "edit": "allow",
         "bash": "deny",
