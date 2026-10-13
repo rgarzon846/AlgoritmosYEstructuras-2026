@@ -23,9 +23,6 @@ Requisitos y lógica de implementación:
 3. Si el ciclo finaliza porque 'actual' llegó a 'null' sin encontrar el valor, retornar 'false'.
 
 Ajustes realizados luego de la primera respuesta de OpenCode:
-- Se añadió un método sobrecargado opcional 'buscarIndice(int dato)' que devuelve la posición 
-  (0-indexed) del elemento además del valor booleano, demostrando cómo contar los pasos durante 
-  el recorrido secuencial.
 - Se verificó que el recorrido no modifique la referencia 'head' original de la lista, utilizando 
   siempre una variable local auxiliar para la iteración.
  */
@@ -134,3 +131,14 @@ public class Ejercicio2BuscarListaEnlazada {
         System.out.println("¿Existe el 99?: " + lista.buscar(99));  // false (elemento inexistente)
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El atributo 'size' se incrementa en 'insertarAlFinal()' pero nunca se lee en ningún punto: no existe 'getSize()' ni validación que lo utilice.
+[PROMPT] Los 'Ajustes' del Prompt anuncian un método sobrecargado 'buscarIndice(int dato)', pero ese método no existe en el código: sólo está 'buscar(int dato)'.
+[CORREGIDO] Ajuste falso eliminado del Prompt por OpenCode: ya no se anuncia 'buscarIndice', que nunca se implementó.
+[PROMPT] El Prompt sólo pedía la firma 'boolean buscar(int)'; no pidió reimplementar toda la lista ni un 'main' con cuatro consultas y su salida esperada.
+====================================================================================
+*/

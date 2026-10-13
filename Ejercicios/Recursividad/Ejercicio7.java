@@ -86,3 +86,12 @@ public class Ejercicio7 {
         }
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El comentario "// PASO RECURSIVO: Último dígito (n % 10) + suma de dígitos restantes (n / 10)" reproduce literalmente la fórmula del punto 4 del PROMPT de cabecera.
+[PROMPT] El PROMPT no especifica el tipo de retorno; el código usa `int`, que alcanza (la suma máxima de un int es 46: 2+1+4+7+4+8+3+6+4+7), pero esa elección no está en el enunciado.
+====================================================================================
+*/

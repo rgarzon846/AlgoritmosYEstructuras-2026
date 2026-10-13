@@ -97,3 +97,13 @@ public class Ejercicio10 {
         }
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El chequeo `array.length == 0` en `buscar` sobra: `buscarAuxiliar` ya devuelve -1 cuando `indice >= array.length` (0 >= 0 para un arreglo vacío).
+[PROMPT] El PROMPT no contempla arreglos `null`, pero el código los devuelve como -1 en vez de lanzar excepción; decisión no pedida por el enunciado.
+[PROMPT] El plan de pruebas del PROMPT incluía `buscar(new int[]{}, 5)` -> Esperado `-1`, pero el `main` no ejecuta esa prueba del arreglo vacío.
+====================================================================================
+*/

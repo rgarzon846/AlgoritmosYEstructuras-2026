@@ -166,3 +166,13 @@ public class Ejercicio7ModificarListaEnlazada {
         }
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El rótulo del main anuncia 'Prueba de Posición Inválida (Posición -1 y 10)' pero sólo se ejecuta 'modificar(10, 888)': la prueba de -1 que el título promete no existe.
+[REDUNDANTE] 'getSize()' está declarado pero nunca se llama en el archivo.
+[PROMPT] El Prompt pedía sólo la validación previa y la mutación del dato; el bloque try/catch de demostración en 'main' es un agregado propio.
+====================================================================================
+*/

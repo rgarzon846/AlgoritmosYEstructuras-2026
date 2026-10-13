@@ -274,3 +274,12 @@ public class Ejercicio1 {
         System.out.println("Mejor caso O(n) (bandera) · peor/promedio O(n²) · espacio O(1).");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] probar() imprime "Original: ..." y bubbleSort() vuelve a imprimir "Arreglo original: ..." → cada arreglo de prueba aparece DOS veces en la salida aunque el prompt solo pide mostrar el original una vez.
+[PROMPT] El bloque "=== RESUMEN ===" final con la complejidad O(n)/O(n²)/O(1) no figura en el prompt: su sección 4 solo pide traza, estadísticas y verificación, nunca Big-O por pantalla.
+====================================================================================
+*/

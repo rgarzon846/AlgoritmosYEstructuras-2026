@@ -405,3 +405,12 @@ public class Ejercicio5 {
         System.out.println("  h posiciones de una vez. El gap final = 1 garantiza el orden.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El arreglo original se imprime DOS veces por caso: probar() imprime "Original:" y shellSort() vuelve a imprimir "[Shell] original: ...".
+[PROMPT] El prompt pide "la traza de los desplazamientos indicando EL SALTO (de qué posición a qué otra)"; el código imprime además una línea por CADA clave aunque no haya desplazado nada ("→ sin saltos"), salida que el prompt no pide.
+====================================================================================
+*/

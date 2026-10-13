@@ -42,6 +42,8 @@
  ====================================================================================
  */
 
+import java.text.Normalizer;
+
 public class Ejercicio9 {
 
     /**
@@ -55,8 +57,10 @@ public class Ejercicio9 {
             return false;
         }
 
-        // Preprocesamiento/Normalización: elimina espacios y pasa a minúsculas
+        // Preprocesamiento/Normalización: elimina espacios, pasa a minúsculas y quita tildes
         String textoLimpio = str.replaceAll("\\s+", "").toLowerCase();
+        textoLimpio = Normalizer.normalize(textoLimpio, Normalizer.Form.NFD)
+                .replaceAll("\\p{M}+", "");
 
         return evaluarRecursivo(textoLimpio);
     }
@@ -83,6 +87,8 @@ public class Ejercicio9 {
             {"anna", true},
             {"java", false},
             {"Anita lava la tina", true},
+            {"Séverlas al revés", true},
+            {"Árbol", false},
             {"A", true},
             {"", true}
         };
@@ -100,3 +106,14 @@ public class Ejercicio9 {
         }
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[PROMPT] El PROMPT pedía normalizar también los acentos ("omitir espacios o acentos"), pero el código sólo quita espacios y pasa a minúsculas: una frase con "á" o "é" no se evaluaría bien.
+[CORREGIDO] Normalización de acentos implementada por OpenCode con java.text.Normalizer (NFD + eliminación de diacríticos); se agregaron además los casos de prueba "Séverlas al revés" (true) y "Árbol" (false).
+[PROMPT] El PROMPT no menciona cadenas `null`; el código las maneja devolviendo `false`, una decisión propia del implementador que el enunciado no pedía.
+[REDUNDANTE] El comentario "// CASO BASE: Si la cadena es vacía (longitud 0) o de 1 solo carácter..." repite el punto 4 del bloque PROMPT de cabecera.
+====================================================================================
+*/

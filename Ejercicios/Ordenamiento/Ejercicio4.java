@@ -344,3 +344,12 @@ public class Ejercicio4 {
         System.out.println("    (incluso ya ordenado: selection no puede cortar).");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[PROMPT] El prompt no pide ninguna tabla resumen por caso (solo demostración, traza, contadores, verificación y análisis final); el código agrega la lista estática TABLA y la imprime con los 9 casos.
+[REDUNDANTE] El arreglo original se imprime DOS veces por caso: probar() imprime "Original:" y selectionSort() vuelve a imprimir "[Selection] original: ...".
+====================================================================================
+*/

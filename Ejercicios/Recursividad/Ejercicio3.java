@@ -62,7 +62,7 @@ public class Ejercicio3 {
             return 0;
         }
 
-        // PASO RECURSIVO: a + sumar 'a' un total de (b - 1) veces más
+        // PASO RECURSIVO: se suma 'a' y se reduce el contador: a + multiplicar(a, b - 1)
         return a + multiplicar(a, b - 1);
     }
 
@@ -91,3 +91,13 @@ public class Ejercicio3 {
         }
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El comentario del paso recursivo estaba mal redactado ("a + sumar 'a' un total de (b - 1) veces más") y sólo parafraseaba el punto 2 del PROMPT.
+[CORREGIDO] Comentario del paso recursivo reescrito por OpenCode con redacción clara y coherente con la línea de código.
+[PROMPT] El PROMPT prohíbe usar el operador "*", pero el `main` lo usa igual para calcular lo esperado (`int esperado = a * b;`); el enunciado nunca aclaró que la restricción era sólo para el método recursivo.
+====================================================================================
+*/

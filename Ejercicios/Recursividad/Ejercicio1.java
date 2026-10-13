@@ -29,8 +29,8 @@ public class Ejercicio1 {
     /**
      * Calcula el factorial de un número entero de manera recursiva.
      *
-     * @param n Número entero no negativo (recomendado n <= 20). @
-     * return El factorial de n.
+     * @param n Número entero no negativo (recomendado n <= 20).
+     * @return El factorial de n.
      * @throws IllegalArgumentException Si n es menor que 0.
      */
     public static long calcularFactorial(int n) {
@@ -54,3 +54,13 @@ public class Ejercicio1 {
         System.out.println("El factorial de " + numero + " es: " + resultado);
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] Los comentarios "// Validación de rango" y "// CASO BASE: 0! = 1" sólo parafrasean el `if` inmediato siguiente, que ya se entiende solo.
+[PROMPT] El PROMPT sólo pedía el método estático y su justificación teórica; el código además agrega un `main()` de demostración con n = 5 fijo y una Javadoc no pedida.
+[CORREGIDO] Erratas de la Javadoc corregidas por OpenCode: "@return" (antes "* return") y eliminado el "@" suelto al final del @param.
+====================================================================================
+*/

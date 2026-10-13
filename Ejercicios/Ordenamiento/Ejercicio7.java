@@ -492,3 +492,12 @@ public class Ejercicio7 {
         return cuenta;
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] La lista TABLA se carga en los casos (líneas 330 y 360) y en la tabla de crecimiento (línea 436) pero en NINGÚN momento se recorre ni se imprime: memoria muerta que en los otros ejercicios sí se consume.
+[REDUNDANTE] centralCompsEsperadas() + cuentaSubarreglos() (~25 líneas) recalculan con fórmulas las comparaciones que el prompt ya trae escritas (34, 98 y 258 para n = 15, 31 y 63), en vez de validarlas directamente como el resto de los ejercicios.
+====================================================================================
+*/

@@ -423,3 +423,12 @@ public class Ejercicio6 {
         System.out.println("    y profundidad ~log n.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[PROMPT] El prompt no pide tabla resumen de los 9 casos (su sección 4 solo pide traza de llamadas/particiones, estadísticos y verificación); el código agrega la lista estática TABLA y la imprime antes del análisis.
+[REDUNDANTE] El arreglo original se imprime DOS veces por caso: probar() imprime "Original:" y quicksort() vuelve a imprimir "[Quicksort] original: ...".
+====================================================================================
+*/

@@ -71,3 +71,12 @@ public class Ejercicio5 {
         System.out.println("(No debe imprimir números, finaliza correctamente)");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] La nota "// NOTA: Usar (n + 1) causaría un java.lang.StackOverflowError" reproduce literalmente el punto 4 del bloque PROMPT de cabecera.
+[PROMPT] El PROMPT no fijó el formato de salida (su plan de prueba muestra la secuencia "5, 4, 3, 2, 1, 0") y el código opta por un número por línea con println; la decisión quedó sin especificar.
+====================================================================================
+*/

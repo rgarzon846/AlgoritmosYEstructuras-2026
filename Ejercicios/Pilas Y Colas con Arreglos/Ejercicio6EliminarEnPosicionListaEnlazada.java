@@ -188,3 +188,12 @@ public class Ejercicio6EliminarEnPosicionListaEnlazada {
         }
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El constructor explícito de 'SimpleLinkedList' sólo reescribe los valores por defecto que Java ya asigna (head = null, size = 0).
+[PROMPT] El Prompt sólo pedía 'void eliminarEnPosicion(int)'; el archivo reimplementa 'insertarAlFinal' e 'imprimir' completos porque la consigna no indica cómo armar ni verificar la lista.
+====================================================================================
+*/

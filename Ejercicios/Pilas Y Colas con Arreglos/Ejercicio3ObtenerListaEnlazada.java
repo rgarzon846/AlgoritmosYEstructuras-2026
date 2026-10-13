@@ -146,3 +146,12 @@ public class Ejercicio3ObtenerListaEnlazada {
         }
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] 'getSize()' está definido pero no se invoca en ningún lugar del archivo, y el Prompt de este ejercicio no lo pedía.
+[PROMPT] El Prompt sólo pedía 'int obtener(int posicion)'; el archivo agrega además un 'main' con captura de la excepción y mensajes de consola que la consigna no especifica.
+====================================================================================
+*/

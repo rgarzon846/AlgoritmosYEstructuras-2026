@@ -160,3 +160,13 @@ public class Ejercicio1ListaEnlazada {
         System.out.println("Tamaño actual: " + lista.getSize());          // 5
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El setter 'Node.setData()' está declarado pero nunca se invoca en todo el archivo: la lista sólo agrega nodos nuevos, nunca muta el dato de un nodo existente.
+[REDUNDANTE] Inicializar 'this.next = null' en el constructor de 'Node' sobra, porque Java ya asigna null por defecto a todo atributo de referencia.
+[PROMPT] El Prompt describía la estructura y tres métodos, pero no pedía un 'main' con escenario de pruebas ni los comentarios '// true', '// 5' de salida esperada que el código agrega.
+====================================================================================
+*/

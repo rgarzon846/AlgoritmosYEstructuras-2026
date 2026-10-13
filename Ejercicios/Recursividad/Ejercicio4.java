@@ -89,3 +89,12 @@ public class Ejercicio4 {
         }
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] Los comentarios "// CASO BASE: ..." y "// PASO RECURSIVO: ..." repiten textualmente los puntos 2 y 3 del bloque PROMPT de cabecera, que ya explican exactamente lo mismo.
+[PROMPT] El PROMPT nunca declara el tipo de retorno; el código elige `double`, deducible de los valores esperados (1.0, 0.25) pero no fijado por el enunciado.
+====================================================================================
+*/

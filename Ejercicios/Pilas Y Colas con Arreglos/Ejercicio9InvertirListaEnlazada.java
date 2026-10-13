@@ -170,3 +170,13 @@ public class Ejercicio9InvertirListaEnlazada {
         lista.imprimir(); // head -> [10] -> [20] -> [30] -> [40] -> null
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El guard temprano 'head.getNext() == null' es prescindible: el bucle ya deja intacta una lista de cero o un nodo sin necesidad del return.
+[REDUNDANTE] 'getSize()' está declarado pero no se invoca en ningún punto del archivo.
+[PROMPT] El Prompt sólo pedía 'void invertir()'; el 'main' que invierte dos veces para mostrar el regreso al orden original no estaba solicitado.
+====================================================================================
+*/

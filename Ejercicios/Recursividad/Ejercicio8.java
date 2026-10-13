@@ -80,3 +80,12 @@ public class Ejercicio8 {
         }
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] La rama `if (str == null) return null;` sobra separada: unirla al caso base (`str == null || str.length() <= 1` -> `return str`) devuelve exactamente lo mismo.
+[PROMPT] El PROMPT contempla la cadena `null` en su caso base, pero ni su plan de pruebas ni el `main` la incluyen, así que esa comprobación nunca se ejecuta.
+====================================================================================
+*/

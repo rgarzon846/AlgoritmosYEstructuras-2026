@@ -66,3 +66,12 @@ public class Ejercicio2 {
         System.out.println("¿Es correcto? " + (resultado == resultadoEsperado));
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El comentario "// Validación de números negativos" sobre el `if (n < 0)` sobra: la condición y el mensaje de la excepción ya lo dicen todo.
+[PROMPT] El PROMPT pedía además comprobar los casos borde suma(0) = 0 y suma(1) = 1, pero el `main` sólo prueba n = 5, así que esos casos nunca se ejecutan.
+====================================================================================
+*/

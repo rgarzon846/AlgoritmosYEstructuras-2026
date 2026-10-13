@@ -155,3 +155,12 @@ public class Ejercicio8ContarOcurrenciasListaEnlazada {
         System.out.println("Ocurrencias de 10 en lista vacía: " + listaVacia.contarOcurrencias(10)); // Devuelve 0
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[PROMPT] Los 'Ajustes' del Prompt prometen casos con 'un solo elemento', pero el 'main' sólo prueba duplicados, ausentes y lista vacía: falta ese escenario.
+[REDUNDANTE] 'getSize()' se define pero no se utiliza en ningún punto del archivo.
+====================================================================================
+*/

@@ -350,3 +350,12 @@ public class Ejercicio3 {
         System.out.println("  usa insertion sort para arreglos chicos o casi ordenados.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El arreglo original se imprime DOS veces por caso: probar() imprime "Original:" e insertionSort() vuelve a imprimir "[Insertion] original: ...".
+[PROMPT] La sección 4 solo pide por paso "la clave, qué desplaza, por qué corta y el estado"; el código agrega además el desglose numérico POR PASO con flexión singular/plural ("3 comparaciones, 2 desplazamientos") que el prompt no especifica.
+====================================================================================
+*/

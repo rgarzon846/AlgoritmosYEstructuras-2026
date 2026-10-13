@@ -85,3 +85,12 @@ public class Ejercicio6 {
         }
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El comentario "// Validación de números negativos" sólo repite la condición del `if (n < 0)` de la línea siguiente.
+[PROMPT] El enunciado dejaba abierta la estrategia ante negativos (excepción o Math.abs) y no pidió probarla: ninguna prueba del `main` pasa un número negativo, así que la rama del throw nunca se ejecuta.
+====================================================================================
+*/

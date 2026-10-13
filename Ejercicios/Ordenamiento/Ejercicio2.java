@@ -413,3 +413,12 @@ public class Ejercicio2 {
         System.out.println("→ Selection minimiza intercambios sin importar el estado inicial.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El arreglo original se imprime TRES veces por caso: lo muestra probar ("Original"), luego bubbleSort ("[Bubble] inicio") y selectionSort ("[Selection] inicio").
+[REDUNDANTE] El bloque "ANÁLISIS: COMPARAR VECINOS vs BUSCAR EL MENOR" reescribe a mano las mismas cifras (5/0, 15/15, 15/3...) que la TABLA COMPARATIVA recién impresa ya listó fila por fila.
+====================================================================================
+*/

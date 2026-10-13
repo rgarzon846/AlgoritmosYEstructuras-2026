@@ -183,3 +183,13 @@ public class Ejercicio4InsertarEnPosicion {
         }
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] 'getSize()' se define pero nunca se usa en el archivo.
+[PROMPT] El Prompt da por entendido que 'insertarAlInicio', 'insertarAlFinal' e 'imprimir' ya existen de ejercicios anteriores, pero el archivo los reimplementa completos por ser independiente.
+[PROMPT] El Prompt sólo pedía 'void insertarEnPosicion(int, int)'; el 'main' con sus tres escenarios y la salida alineada son extras no solicitados.
+====================================================================================
+*/

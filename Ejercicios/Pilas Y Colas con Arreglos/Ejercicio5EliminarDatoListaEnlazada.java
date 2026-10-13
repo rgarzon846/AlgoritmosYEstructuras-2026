@@ -182,3 +182,13 @@ public class Ejercicio5EliminarDatoListaEnlazada {
         lista.imprimir(); // head -> [20] -> null
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] Los comentarios de 'eliminar()' vuelven a explicar el Garbage Collector y la desvinculación de nodos, tema que el Prompt inicial ya desarrolla extensamente arriba.
+[REDUNDANTE] 'getSize()' está declarado pero no se invoca en ningún punto del archivo.
+[PROMPT] El Prompt sólo pedía 'boolean eliminar(int)'; el 'main' con cuatro escenarios de eliminación y sus salidas esperadas no los solicita.
+====================================================================================
+*/

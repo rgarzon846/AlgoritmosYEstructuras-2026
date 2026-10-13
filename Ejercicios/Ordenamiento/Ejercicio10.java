@@ -713,3 +713,12 @@ public class Ejercicio10 {
         System.out.println("puntajes con empates necesita → estrategia adecuada.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] En los casos con traza el ranking ORDENADO se imprime dos veces: mergesortRanking() lo emite como "Ranking resultante: [...]" y probar() lo vuelve a mostrar con mostrarRanking (1º, 2º, 3º...).
+[REDUNDANTE] puntajes() repite el mismo bucle for que ya hace el tramo inicial de puntajesEsperados() para extraer los puntajes; podría reutilizarse en vez de duplicar esas 4 líneas.
+====================================================================================
+*/

@@ -702,3 +702,12 @@ public class Ejercicio9 {
         System.out.println("  recurren a insertion sort para arreglos chicos o casi ordenados.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[PROMPT] El prompt solo pide en la traza de bubble "cuántos intercambios entre vecinos hizo" y de selection "menor encontrado, su posición y swap"; el código agrega además el conteo de COMPARACIONES POR PASADA en ambos algoritmos, que no figura en la sección 4.
+[REDUNDANTE] El arreglo original se imprime CUATRO veces por caso: lo muestra probar() ("Original") y lo vuelven a mostrar bubbleSort, selectionSort e insertionSort ("inicio").
+====================================================================================
+*/

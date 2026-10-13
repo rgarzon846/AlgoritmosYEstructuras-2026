@@ -549,3 +549,12 @@ public class Ejercicio8 {
         System.out.println("mergesort es O(n log n) estable, con O(n) de memoria.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] En fusionCorrecta() el chequeo esOrdenadoRango() es de más: si despues es igual a "antes" (y antes quedó ordenado con Arrays.sort), el tramo YA está ordenado por definición.
+[REDUNDANTE] El arreglo original se imprime DOS veces en los casos con traza: probar() imprime "Original:" y mergesort() vuelve a imprimir "[MergeSort] original: ...".
+====================================================================================
+*/
