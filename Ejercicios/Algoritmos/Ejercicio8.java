@@ -172,3 +172,12 @@ public class Ejercicio8 {
         System.out.println("El orden de recorrido no importa (suma conmutativa).");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] `elementosRecorridos` y `sumasEfectuadas` se incrementan juntas en cada iteración y siempre valen lo mismo: un contador es copia exacta del otro.
+[PROMPT] El enunciado solo pedía la suma de todos los elementos; el código además detecta filas de distinto largo (ragged), imprime traza celda por celda con el acumulador parcial y ejecuta 5 pruebas.
+====================================================================================
+*/

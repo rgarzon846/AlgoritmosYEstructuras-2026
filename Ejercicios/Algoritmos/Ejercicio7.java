@@ -214,3 +214,13 @@ public class Ejercicio7 {
         System.out.println("Ambas: O(n) en mejor, peor y caso promedio.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] En `probar` el vector esperado se arma con un for manual, cuando `java.util.Arrays` (ya importado) permitía clonar y aplicar `Arrays.reverse` en una línea.
+[REDUNDANTE] El contador `intercambios` de la versión in-place siempre vale `n/2`: es un valor derivable del tamaño, mantenido solo para el println final.
+[PROMPT] El enunciado solo pedía las dos formas de invertir un vector; el código además imprime el estado del auxiliar en cada copia, maneja null/vacío y verifica ambas versiones contra un esperado reconstruido.
+====================================================================================
+*/

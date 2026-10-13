@@ -156,3 +156,12 @@ public class Ejercicio1 {
         System.out.println("modificaría el vector y el orden no aporta nada.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] La variable `posicionMinimo` se actualiza en cada nuevo mínimo pero solo se usa en un println final: el método devuelve únicamente el valor, así que la posición es estado sin consumidor.
+[PROMPT] El enunciado (cabecera) solo pedía encontrar el mínimo; el código además lanza excepción con null/vacío, imprime traza paso a paso de cada posición y ejecuta 6 pruebas con resumen de complejidad.
+====================================================================================
+*/

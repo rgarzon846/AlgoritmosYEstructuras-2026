@@ -222,3 +222,12 @@ public class Ejercicio9 {
         System.out.println("podría contener un valor mayor (propiedad global).");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] La clase interna `Posicion` y la variable `posicion` existen solo para el println final: el método devuelve únicamente el valor máximo y ningún caller consume la posición.
+[PROMPT] El enunciado solo pedía encontrar el mayor elemento; el código además informa en qué celda está, cuenta comparaciones, lanza excepción con matrices sin celdas y ejecuta 6 pruebas.
+====================================================================================
+*/

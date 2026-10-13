@@ -198,3 +198,12 @@ public class Ejercicio10 {
         System.out.println("mergesort promedian O(n log n) y dominan en la práctica.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] La sección "POR QUÉ ES ADECUADO ÚNICAMENTE PARA FINES DIDÁCTICOS" de la cabecera desaconseja el propio algoritmo del ejercicio: sobra en un archivo cuyo pedido era solo implementarlo.
+[PROMPT] El enunciado solo pedía el bubble sort; el código además define la clase `Estadisticas` con contadores, imprime traza por pasada, maneja null/vectores de menos de 2 elementos y valida contra `Arrays.sort`.
+====================================================================================
+*/

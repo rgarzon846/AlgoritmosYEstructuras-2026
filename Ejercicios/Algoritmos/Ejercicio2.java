@@ -157,3 +157,12 @@ public class Ejercicio2 {
         System.out.println("Contraste : binaria O(log n) requiere orden; lineal no.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] `posicionesRecorridas` siempre vale `i+1` dentro del bucle: es un contador paralelo que repite exactamente el índice ya disponible.
+[PROMPT] El enunciado solo pedía buscar el elemento en un vector desordenado; el código además cuenta posiciones recorridas, imprime traza de cada comparación, maneja null/vacío y corre 6 pruebas con verificación OK/ERROR.
+====================================================================================
+*/

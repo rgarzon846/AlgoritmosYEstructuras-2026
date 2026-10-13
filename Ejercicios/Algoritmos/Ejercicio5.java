@@ -120,3 +120,12 @@ public class Ejercicio5 {
         System.out.println("ocurrencia; el conteo total siempre es O(n).");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El comentario dentro del bucle ("no se puede cortar antes de tiempo...") repite la justificación que la cabecera del archivo ya desarrolló con más detalle.
+[PROMPT] El enunciado solo pedía contar las apariciones de un valor; el código además imprime traza en cada coincidencia, maneja null/vacío y ejecuta 5 pruebas con resumen comparativo contra búsqueda binaria.
+====================================================================================
+*/

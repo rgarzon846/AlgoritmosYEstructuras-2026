@@ -128,3 +128,12 @@ public class Ejercicio3 {
         System.out.println("Caso 4 (buscar 99): índice " + r4 + " (esperado -1)");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El bloque RESUMEN de `main` vuelve a imprimir el análisis de complejidad (O(log n), contraste con lineal) que la cabecera del archivo ya explicó.
+[PROMPT] El enunciado solo pedía la búsqueda binaria; el código además maneja null/vacío, lleva un contador `paso` solo para numerar la salida e imprime traza detallada de la ventana [izquierda, derecha] en cada iteración.
+====================================================================================
+*/

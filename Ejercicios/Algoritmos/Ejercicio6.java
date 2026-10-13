@@ -176,3 +176,12 @@ public class Ejercicio6 {
         System.out.println("       la igualdad solo se confirma al final del recorrido.");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El contador `comparaciones` siempre coincide con `i+1` dentro del bucle: es estado paralelo que duplica el índice sin aportar información nueva.
+[PROMPT] El enunciado solo pedía determinar si dos vectores son iguales; el código además trata el caso ambos null como iguales, cuenta posiciones comparadas, imprime traza posición por posición y corre 8 pruebas.
+====================================================================================
+*/

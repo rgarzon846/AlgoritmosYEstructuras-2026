@@ -164,3 +164,12 @@ public class Ejercicio4 {
         System.out.println("HashSet         : O(n) tiempo esperado / O(n) espacio");
     }
 }
+
+/* ...CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+CORRECCIONES HECHAS POR OPENCODE
+====================================================================================
+[REDUNDANTE] El `HashMap primerIndice` guarda la misma información que el `HashSet vistos` (qué valores ya aparecieron), duplicando el consumo de memoria O(n) solo para enriquecer el mensaje impreso.
+[PROMPT] El enunciado solo pedía detectar si hay duplicados (resultado booleano); el código además informa los índices exactos del par duplicado, cuenta comparaciones/operaciones y valida que ambas soluciones coincidan entre sí.
+====================================================================================
+*/
