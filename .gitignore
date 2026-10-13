@@ -1,0 +1,13 @@
+# Compiled class files (regenerados con javac, no se versionan)
+*.class
+
+# Package archives
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Lock files de LibreOffice (documentos abiertos)
+.~lock.*
